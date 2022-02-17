@@ -1,0 +1,50 @@
+.container{
+    width: 370px;
+    margin: 20px;
+    background: #F8FAFC;
+    border-radius: 25px;
+}
+
+.image-line {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.775);
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image {
+    height: auto;
+    width: auto;
+    position: relative;
+    transition: all .4s ease-in-out;
+    object-fit: cover;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: scale(1.4)
+}
+
+.text{
+    font-family: 'SF UI Display';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2C2C2C;
+}
+
+.text_about {
+    font-family: 'SF UI Display';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 20px;
+}

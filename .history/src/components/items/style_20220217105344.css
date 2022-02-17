@@ -1,0 +1,20 @@
+.container{
+    width: 370px;
+    height: 400px;
+    margin: 40px;
+    background: #F8FAFC;
+    border-radius: 25px;
+}
+
+.image-line {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.775);
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.image {
+    height: auto;
+    width: auto;
+}

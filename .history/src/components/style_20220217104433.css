@@ -1,0 +1,5 @@
+.big__container {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
